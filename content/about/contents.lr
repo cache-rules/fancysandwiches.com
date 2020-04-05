@@ -1,6 +1,8 @@
-title: About Fancy Sandwiches
+title: About
 ---
 body:
 
 Fancy Sandwiches is a food blog run by [Alan Vezina](https://www.twitter.com/fancysandwiches) and
 [Adrienne Lowe](https://www.twitter.com/adriennefriend).
+
+It is written with [Lektor](https://www.getlektor.com) and [Bulma](https://bulma.io)
