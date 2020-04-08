@@ -8,6 +8,9 @@ twitter_handle: fancysandwiches
 ---
 draft: false
 ---
+preview:
+![Cross section](fancy_standard_04.jpg "Cross section")
+---
 body:
 ####aka the Fancy Standard
 Adapted from the Ted Bread recipe in
