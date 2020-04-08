@@ -1,17 +1,46 @@
+html,
+body {
+    background-color: rgba(45, 49, 66, 1);
+    min-height: 100%;
+}
+a {
+    color: rgb(250, 120, 60);
+}
+header h1 a:hover {
+    color: rgb(250, 120, 60);
+}
+header,
+footer {
+    color: #fff;
+}
 .main {
     max-width: 768px;
     margin: 0 auto;
 }
 .header-items {
     display: flex;
+    margin-top: -1rem;
 }
 .header-items__item {
     margin-right: 0.25rem;
 }
 .header-link {
     display: inline-block;
-    padding: 0.5rem;
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+    color: #84dcc6;
 }
+.author {
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+}
+.blog-post--from-index {
+    margin-bottom: 1rem;
+}
+
+/*
+    Colors below are mostly for reference.
+*/
 .light-green {
     background-color: #84dcc6;
 }
@@ -29,26 +58,4 @@
 }
 .white-bg {
     background-color: rgba(255, 255, 255, 1);
-}
-html,
-body {
-    background-color: rgba(45, 49, 66, 1);
-    min-height: 100%;
-}
-a {
-    color: rgba(239, 131, 84, 1);
-}
-header,
-footer {
-    color: #fff;
-}
-.header-items a {
-    color: #84dcc6;
-}
-.author {
-    margin-top: -1.5rem;
-    margin-bottom: 1rem;
-}
-.blog-post--from-index {
-    margin-bottom: 1rem;
 }
