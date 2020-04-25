@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %} Welcome {% endblock %}
+{% block body %}
+    {% set posts = site.query('/blog').order_by('-pub_date', 'title').filter(F.draft==False) %}
+    
+    {% for child in posts.limit(5) %}
+      {{ render_blog_post(child, from_index=true) }}
+    {% endfor %}
+
+    {% if posts.count() > 5 %}
+      <a href="/blog">See more</a>
+    {% endif %}
+{% endblock %}
