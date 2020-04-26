@@ -38,7 +38,7 @@ footer {
     padding-bottom: 2rem;
 }
 .blog-post--from-index:not(:last-of-type) {
-    border-bottom: 1px solid rgba(79, 93, 117, 1);
+    border-bottom: 3px solid rgba(79, 93, 117, 1);
     margin-bottom: 2rem;
 }
 
