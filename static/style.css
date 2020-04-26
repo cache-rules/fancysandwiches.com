@@ -1,0 +1,65 @@
+html,
+body {
+    background-color: rgba(45, 49, 66, 1);
+    min-height: 100%;
+}
+a {
+    color: rgb(250, 120, 60);
+}
+header h1 a:hover {
+    color: rgb(250, 120, 60);
+}
+header,
+footer {
+    color: #fff;
+}
+.main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+.header-items {
+    display: flex;
+    margin-top: -1rem;
+}
+.header-items__item {
+    margin-right: 0.25rem;
+}
+.header-link {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+    color: #84dcc6;
+}
+.author {
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+}
+.blog-post--from-index {
+    padding-bottom: 2rem;
+}
+.blog-post--from-index:not(:last-of-type) {
+    border-bottom: 3px solid rgba(79, 93, 117, 1);
+    margin-bottom: 2rem;
+}
+
+/*
+    Colors below are mostly for reference.
+*/
+.light-green {
+    background-color: #84dcc6;
+}
+.dark-blue {
+    background-color: rgba(45, 49, 66, 1);
+}
+.mid-blue {
+    background-color: rgba(79, 93, 117, 1);
+}
+.orange {
+    background-color: rgb(250, 120, 60);
+}
+.grey {
+    background-color: rgba(191, 192, 192, 1);
+}
+.white-bg {
+    background-color: rgba(255, 255, 255, 1);
+}
