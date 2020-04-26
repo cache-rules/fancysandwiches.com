@@ -37,7 +37,7 @@ admin panel [http://localhost:5000/admin/root/edit](http://localhost:5000/admin/
 (for example `content/blog/hello-world` will be come `www.fancysandwiches.com/blog/hello-world`)
 2. Add a `contents.lr` file with the following contents:
     ```
-    title: Alan's Whole Wheat Sandwich Bread
+    title: Your Blog Post Title
     ---
     author: Your Name
     ---
