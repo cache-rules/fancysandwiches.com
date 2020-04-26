@@ -1,2 +1,8 @@
 [project]
 name = Fancy Sandwiches
+url = www.fancysandwiches.com
+
+[servers.ghpages]
+target = ghpages://cache-rules/fancysandwiches.com?cname=www.fancysandwiches.com
+enabled = yes
+default = yes
